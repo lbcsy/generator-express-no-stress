@@ -49,7 +49,7 @@ paths:
             $ref: "#/definitions/ExampleBody"
       responses:
         200:
-          description: Returns all examples
+          description: Returns new created example
 
   /examples/{id}:
     get:
